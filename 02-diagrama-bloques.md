@@ -1,6 +1,7 @@
 # Diagrama de Bloques de la Solución
 
 ## Diagrama General del Sistema
+```
 ┌─────────────────────────────────────────────────────────────────┐
 │ CLIENTE │
 │ (Usuario Final) │
@@ -65,4 +66,4 @@
 │ - Toma decisiones basadas en datos │
 │ - Envía anuncios por Instagram Channel │
 │ - Gestiona clientes frecuentes │
-└─────────────────────────────────────────────────────────────────┘
+└─────────────────────────────────────────────────────────────────┘ ```
