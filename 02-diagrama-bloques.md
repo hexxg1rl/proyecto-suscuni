@@ -1,7 +1,16 @@
 # Diagrama de Bloques de la Solución
 
 ## Diagrama General del Sistema
-```
+
+```mermaid
+graph TD
+    A[CLIENTE<br/>Usuario Final] --> B[CAPA DE ENTRADA<br/>QR en Mesas<br/>WhatsApp Business<br/>Instagram Channel]
+    B --> C[CAPA DE PROCESO<br/>Google Forms / Jotform<br/>Formulario visual con imágenes<br/>Calificación 1-5 estrellas<br/>WhatsApp Business API<br/>Mensajes automáticos]
+    C --> D[CAPA DE DATOS<br/>Google Sheets<br/>Base de datos de feedback<br/>Base de datos de clientes<br/>Gráficas automáticas]
+    D --> E[COACH EMPRESARIAL<br/>Dueño de Suscuni<br/>Visualiza gráficas<br/>Toma decisiones<br/>Envía anuncios]
+    
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style E fill:#bbf,stroke:#333,stroke-width:2px
 ┌─────────────────────────────────────────────────────────────────┐
 │ CLIENTE │
 │ (Usuario Final) │
