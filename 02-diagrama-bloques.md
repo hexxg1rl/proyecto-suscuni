@@ -79,3 +79,4 @@ graph TD
 │ - Envía anuncios por Instagram Channel │
 │ - Gestiona clientes frecuentes │
 └─────────────────────────────────────────────────────────────────┘ ```
+Actualizado en branch de desarrollo
