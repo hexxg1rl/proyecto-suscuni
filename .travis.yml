@@ -1,0 +1,18 @@
+language: python
+python:
+  - "3.8"
+
+branches:
+  only:
+    - develop
+    - master
+
+script:
+  - echo "Probando configuración del proyecto Suscuni"
+  - echo "Verificando archivos de documentación"
+  - test -f 01-definicion-organizacion.md
+  - test -f 02-diagrama-bloques.md
+  - test -f 03-requerimientos.md
+
+notifications:
+  email: false
