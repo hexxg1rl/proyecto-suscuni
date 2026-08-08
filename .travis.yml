@@ -4,15 +4,18 @@ python:
 
 branches:
   only:
+    - main
     - develop
     - master
 
 script:
-  - echo "Probando configuración del proyecto Suscuni"
-  - echo "Verificando archivos de documentación"
-  - test -f 01-definicion-organizacion.md
-  - test -f 02-diagrama-bloques.md
-  - test -f 03-requerimientos.md
+  - echo "Iniciando pruebas del proyecto Suscuni"
+  - echo "Verificando archivos de documentación..."
+  - test -f 01-definicion-organizacion.md && echo "✓ Archivo 1 existe"
+  - test -f 02-diagrama-bloques.md && echo "✓ Archivo 2 existe"
+  - test -f 03-requerimientos.md && echo "✓ Archivo 3 existe"
+  - test -f 06-arquitectura.md && echo "✓ Archivo 6 existe"
+  - echo "¡Todas las pruebas pasaron!"
 
 notifications:
   email: false
