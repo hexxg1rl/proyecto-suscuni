@@ -5,6 +5,9 @@ python:
 branches:
   only:
     - master
+    - main
+    - develop
+   
 
 script:
   - echo "Iniciando pruebas del proyecto Suscuni"
